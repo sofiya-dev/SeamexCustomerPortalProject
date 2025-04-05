@@ -1,0 +1,62 @@
+.digitalProductsContainer {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.digitalProductsTitle {
+
+    margin-bottom: 50px; 
+    display: block;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52.8px;
+    font-family: Poppins, sans-serif;
+}
+
+.productsGrid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+}
+
+.productTitle {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px; 
+    font-family: Poppins, sans-serif; 
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.productImage {
+    
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+
+.productDescription {
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+    font-family: Poppins, sans-serif;
+}

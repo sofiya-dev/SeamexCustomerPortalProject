@@ -1,0 +1,109 @@
+
+.spanServicesContainer {
+    background-color: rgb(234, 231, 231);
+    padding: 40px;
+    text-align: center;
+    position: relative; 
+   
+  }
+  
+  .servicesTitle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52.8px;
+    color: #383838;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+  }
+  
+  .servicesContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .servicesText {
+    flex: 1;
+    text-align: left;
+    max-width: 50%;
+  }
+  
+  .servicesHeading {
+    font-family: "Poppins", sans-serif;
+    color: #383838;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .servicesDescription {
+    font-size: 16px;
+    color: #555;
+    line-height: 25px;
+  }
+  
+  .servicesButtons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 15px;
+   
+  }
+  
+  .exploreButton {
+    font-weight: 600;
+    font-size: 13.36px;
+    line-height: 15px;
+    border-radius: 25px;
+    background-color: rgb(163, 28, 32);
+    color: white;
+    height: 50px;
+    width: 153px;
+    border: 1px solid #e7e7e9;
+    
+  }
+  
+  .exploreButton:hover {
+    background-color: #871717;
+  }
+  
+  .getStartedButton {
+    font-weight: 600;
+    font-size: 13.36px;
+    line-height: 15px;
+    border-radius: 25px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    height: 50px;
+    width: 153px;
+  }
+  
+  .getStartedButton:hover {
+    background-color: #333;
+  }
+  
+  .servicesImage img {
+    max-height: 304px;
+    max-width: 482px;
+}
+  
+  .navArrow  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #a21d1d;
+    font-size: 24px;
+    cursor: pointer;
+    
+  }
+  
+  .leftArrow {
+    left: 20px;
+  }
+  
+  .rightArrow {
+    right: 20px;
+  }

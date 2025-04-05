@@ -1,0 +1,57 @@
+.dashboardContainer {
+    text-align: center;
+    padding: 20px;  
+}
+
+.ms-font-xxl {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52.8px;
+    font-family: Poppins, sans-serif;
+}
+
+.dashboardContent {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 90vh;
+    text-align: left;
+    padding: 20px;
+    margin-left: 1%;
+    background: no-repeat center;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+.dashboardLeft, .dashboardRight {
+    width: 45%;
+} 
+
+.dashboardButton {
+    background-color: #d32f2f;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+.ms-Button:hover {
+    background-color: #b71c1c;
+}
+
+/* 
+@media  (max-width: 768px) {
+    .dashboardContent {
+        flex-direction: column;
+        text-align: left ;  
+    }
+
+    .dashboardButton {
+        width: 100%;
+    }
+}   */
+
