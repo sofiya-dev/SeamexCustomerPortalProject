@@ -28,7 +28,7 @@ const projects = [
 
 export const ProjectWins = () => {
   return (
-    <div className="projectWins">
+    <div className="projectWinsContainer">
       <h1>Project Wins</h1>
       <p className="description">
         View our collection of key projects that have significantly impacted our clients. 

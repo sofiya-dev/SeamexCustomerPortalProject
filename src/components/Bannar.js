@@ -14,4 +14,4 @@ const SeamexBannar = () => {
   );
 };
 
-export default SeamexBannar;
+export default SeamexBannar;  

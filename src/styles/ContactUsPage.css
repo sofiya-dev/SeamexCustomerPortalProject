@@ -1,0 +1,129 @@
+/* Main container */
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Full-width heading */
+  .full-width-heading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 24px;
+    color: #2d2d2d;
+
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Two-column layout */
+  .contact-content {
+    display: flex;
+    /* justify-content: space-between;
+    gap: 0px; */
+    
+  }
+  
+  /* Left side styles */
+  .contact-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+  }
+  
+  /* Each contact section block */
+  .contact-section {
+    margin-bottom: 20px;
+    line-height: 1.6;
+ 
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Highlighted link */
+  .highlight-link {
+    font-size: 22px;
+    color: #8b080c !important;
+    font-weight: 650 !important;
+  }
+  
+  /* Highlighted phone */
+  .highlight-phone {
+    font-size: 22px;
+    color: #8b080c !important;
+    font-weight: 650 !important;
+  }
+  
+  /* Section title (bold label) */
+  .section-title {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+ 
+  }
+
+  .contactDetails{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #606060;
+  }
+  
+  /* Divider line between sections */
+  .divider {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+  }
+  
+  /* Google Maps link */
+  .map-link {
+    color: #8b080c ;
+    text-decoration: underline;
+    font-size: 15px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+  }
+  
+  /* Right side styles */
+  .contact-right {
+    flex: 1;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Map image */
+  .map-img {
+   
+    margin-top: 10%;
+    max-height: 460px;
+    max-width: 760px;
+    
+  }
+  
+  /* Caption below map */
+  .map-footer-text {
+
+    font-style: italic;
+    font-size: 14px;
+    color: #606060;
+    text-align: center;
+    
+  
+  }
+  
+  /* Mumbai highlight in caption */
+  .mumbai-highlight {
+    color: #b30000;
+    font-style: italic;
+    font-weight: 500;
+  }
+  

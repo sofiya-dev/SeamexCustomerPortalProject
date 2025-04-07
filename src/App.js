@@ -12,6 +12,10 @@ import DigitalProducts from "./components/DigitalProducts";
 import OurDashboard from "./components/OurDashboard";
 import Footer from "./components/Footer";
 import { ProjectWins } from "./components/ProjectWins";
+import ContactUsPage from "./components/ContactUsPage";
+import ContactUsBanner from "./components/ContactUsBanner";
+
+
 
 
 function App() {
@@ -28,6 +32,8 @@ function App() {
 
       <OurDashboard/>
 <ProjectWins/>
+<ContactUsBanner/>
+<ContactUsPage/>
       <Footer/>
     </div>
   );
