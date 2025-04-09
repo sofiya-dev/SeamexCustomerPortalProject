@@ -1,0 +1,57 @@
+.teamContainer {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px;
+    font-family: Poppins , sans-serif;
+    max-width: 80%;
+    margin-left: 8%;
+  }
+  
+  .teamIcon {
+    width: 116px;
+    height: 116px;
+    margin-right: 40px;
+    align-content: center;
+    margin-top: 5px;
+    padding-left: 5%;
+  }
+  
+  .teamContent {
+    flex: 1;
+    padding-right: 5%;
+  }
+  
+  .teamTitle {
+    margin-bottom: 20px;
+  }
+  
+  .ourHeading {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    font-family: Poppins , sans-serif;
+  }
+
+  .teamHeading {
+    font-family: Poppins , sans-serif;
+    font-size: 32px ;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: rgb(163, 28, 32);
+  }
+  
+  .teamText {
+    line-height: 1.8; 
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    display: list-item;
+    list-style-type: disc;
+    margin-bottom: 10px;
+  }
+  

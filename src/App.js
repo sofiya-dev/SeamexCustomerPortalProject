@@ -16,6 +16,13 @@ import ContactUsPage from "./components/ContactUsPage";
 import ContactUsBanner from "./components/ContactUsBanner";
 import AboutUsBase from "./components/AboutUS/AboutUsBase";
 import MissionVision from "./components/MissionVision";
+import OurScope from "./components/OurScope";
+import OurTeam from "./components/OurTeam";
+import DigitalTransformation from "./components/DigitalTransformation";
+import CommitmentToExcellence from "./components/CommitmentToExcellence";
+import CultureOfContinuousImprovement from "./components/CultureOfContinuousImprovement";
+import VisionFuture from "./components/VisionFuture";
+
 
 
 
@@ -36,8 +43,15 @@ function App() {
 <ProjectWins/>
 
 <AboutUsBase/>
-<MissionVision/>
 
+<OurScope/>
+<OurTeam/>
+<DigitalTransformation/>
+<CommitmentToExcellence/>
+<CultureOfContinuousImprovement/>
+<VisionFuture/>
+
+<MissionVision/>
 <ContactUsBanner/>
 <ContactUsPage/>
       <Footer/>
