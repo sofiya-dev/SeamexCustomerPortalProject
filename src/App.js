@@ -1,19 +1,21 @@
 
 import React from "react";
 import Header from "./components/Header";
-import Bannar from "./components/Bannar";
+import HomeBanner from "./components/HomeBanner";
 
 import SpanOfServices from "./components/SpanOfServices";
 // import SpanOfServices2 from "./components/SpanOfServices2";
 // import SpanOfServices3 from "./components/SpanOfServices3";
 // import SpanOfServices4 from "./components/SpanOfServices4";
-import DigitalProducts from "./components/DigitalProducts";
 
+import DigitalProducts from "./components/DigitalProducts";
 import OurDashboard from "./components/OurDashboard";
 import Footer from "./components/Footer";
 import { ProjectWins } from "./components/ProjectWins";
 import ContactUsPage from "./components/ContactUsPage";
 import ContactUsBanner from "./components/ContactUsBanner";
+import AboutUsBase from "./components/AboutUS/AboutUsBase";
+import MissionVision from "./components/MissionVision";
 
 
 
@@ -22,8 +24,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Bannar/>
-      {/* <SeamexHome /> */}
+      <HomeBanner/>
+    
         <DigitalProducts/>
           <SpanOfServices/>
          {/* <SpanOfServices2/> 
@@ -32,6 +34,10 @@ function App() {
 
       <OurDashboard/>
 <ProjectWins/>
+
+<AboutUsBase/>
+<MissionVision/>
+
 <ContactUsBanner/>
 <ContactUsPage/>
       <Footer/>

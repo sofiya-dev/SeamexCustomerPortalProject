@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./../styles/Header&Bannar.css"; 
+import "./../styles/Header&Banner.css"; 
 
 const Header = () => {
   return (

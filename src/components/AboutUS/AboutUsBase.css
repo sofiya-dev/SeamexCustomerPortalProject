@@ -1,0 +1,42 @@
+
+
+.aboutUsContainer {
+  padding: 40px;
+  font-family: Poppins, sans-serif;
+  height: 300px;
+}
+
+.aboutUsHeader {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px; 
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 53.8px;
+  font-family: Poppins, sans-serif;
+}
+
+.linksGrid {
+  display: flex;
+  justify-content: space-evenly; 
+  flex-wrap: wrap;
+  gap: 40px; /* reduces column spacing */
+}
+
+.linkColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 320px;
+  margin-top: 20px;
+}
+
+.linkItem {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(106, 106, 106);
+  font-family: Poppins, sans-serif;
+  cursor: pointer;
+ }
+
+

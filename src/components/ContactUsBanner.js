@@ -7,7 +7,7 @@ const ContactUsBanner = () => {
   return (
     <main className="contactMain">
       <Stack horizontalAlign="center" className="contentWrapper">
-        <img className="contactBanner" src={require('../assets/ContactUsBanner.png')}/>
+        <img className="contactBanner" src={require('../assets/ContactUsImage.png')}/>
         
       </Stack>
     </main>
