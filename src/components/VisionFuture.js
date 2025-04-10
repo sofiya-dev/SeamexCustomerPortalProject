@@ -3,6 +3,7 @@ import { Text } from '@fluentui/react';
 import './../styles/VisionFuture.css';
 import VisionIcon from '../assets/VisionForFutureIcon.png';
 
+
 const VisionFuture = () => {
   return (
     <div className="visionFutureContainer">
@@ -19,12 +20,9 @@ const VisionFuture = () => {
         </ul>
       </div>
 
-      <img
-        src={VisionIcon}
-        alt="Vision Icon"
-        className="visionFutureIcon"
-      />
-    </div>
+      <img src={VisionIcon} alt="Vision Icon" className="visionFutureIcon"/>
+      
+    </div>    
   );
 };
 

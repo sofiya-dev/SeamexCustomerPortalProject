@@ -3,6 +3,8 @@ import { Text } from '@fluentui/react';
 import './../styles/CommitmentToExcellence.css';
 import ExcellenceIcon from '../assets/ExcellenceIcon.png';
 
+
+
 const CommitmentToExcellence = () => {
   return (
     <div className="excellenceContainer">
