@@ -1,0 +1,112 @@
+.dataPrivacyContainer {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .dataPrivacyContent {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .subtitle {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30.8px;
+    color: rgb(56, 56, 56);
+    font-family: Poppins, sans-serif;
+  }
+  
+  .dataPrivacyHeading {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 52.8px;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    margin-top: 20px;
+  }
+  
+  .dataHeading {
+    color: rgb(255, 84, 0);  
+  }
+
+  
+  .privacyHeading {
+    color: black;
+    margin-left: 10px;
+  }
+
+  .dataPrivacyDescription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(56, 56, 56);
+    font-family: Poppins, sans-serif;
+    padding-top: 12px;
+}
+  
+/* Privacy Cards Section */
+.privacyBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .privacyCard {
+   
+    padding: 20px 20px;
+    width: 300px;
+    text-align: left;
+    margin-top: 20px;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: rgb(249, 249, 249);
+    font-family: Poppins, sans-serif;
+  }
+  
+  .privacyCardHeading {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33.6px;
+    color: rgb(56, 56, 56);
+    font-family: Poppins, sans-serif;
+    letter-spacing: .02em;
+  }
+
+  .subDescription  {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-family: Poppins, sans-serif;
+    color: #888;
+}
+
+/* .subDescription:hover {
+    margin-top: -4px;
+} */
+
+
+.description1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(56, 56, 56);
+    font-family: Poppins, sans-serif;
+    padding-top: 15px;
+    display: flex;
+}
+
+.description2 {
+     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(56, 56, 56);
+    font-family: Poppins, sans-serif;
+    padding-top: 15px;
+}
+  
+

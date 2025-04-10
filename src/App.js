@@ -23,6 +23,7 @@ import CommitmentToExcellence from "./components/CommitmentToExcellence";
 import CultureOfContinuousImprovement from "./components/CultureOfContinuousImprovement";
 import VisionFuture from "./components/VisionFuture";
 import VisionFutureStrip from "./components/VisionFutureStrip";
+import DataPrivacy from "./components/DataPrivacy";
 
 
 function App() {
@@ -52,6 +53,9 @@ function App() {
 <VisionFutureStrip/>
 
 <MissionVision/>
+
+<DataPrivacy/>
+
 <ContactUsBanner/>
 <ContactUsPage/>
       <Footer/>
