@@ -9,6 +9,7 @@ import SpanOfServices from "./components/SpanOfServices";
 // import SpanOfServices4 from "./components/SpanOfServices4";
 
 import DigitalProducts from "./components/DigitalProducts";
+
 import OurDashboard from "./components/OurDashboard";
 import Footer from "./components/Footer";
 import { ProjectWins } from "./components/ProjectWins";
@@ -28,6 +29,7 @@ import SeamexProjectWins from "./components/SeamexProjectWins";
 import TermAndConditionBanner from "./components/TermAndConditionBanner";
 
 
+
 function App() {
   return (
     <div className="App">
@@ -35,6 +37,7 @@ function App() {
       <HomeBanner/>
     
         <DigitalProducts/>
+        
           <SpanOfServices/>
          {/* <SpanOfServices2/> 
       <SpanOfServices3/>

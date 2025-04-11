@@ -60,3 +60,39 @@
     margin-top: 10px;
     font-family: Poppins, sans-serif;
 }
+
+/* Popup dialog  */
+
+.dialogHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px 0;
+    
+    border-bottom: 1px solid black;
+  }
+  
+  .dialogTitle {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .dialogCloseIcon {
+    color: black;
+  }
+    
+  .popupImage {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Enable zoom with Ctrl + mousewheel */
+.zoomableContent {
+    zoom: 1;
+    transform-origin: center center;
+  }
+  
