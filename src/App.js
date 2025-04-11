@@ -24,6 +24,7 @@ import CultureOfContinuousImprovement from "./components/CultureOfContinuousImpr
 import VisionFuture from "./components/VisionFuture";
 import VisionFutureStrip from "./components/VisionFutureStrip";
 import DataPrivacy from "./components/DataPrivacy";
+import SeamexProjectWins from "./components/SeamexProjectWins";
 
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
 
 <DataPrivacy/>
 
+<SeamexProjectWins/>
 <ContactUsBanner/>
 <ContactUsPage/>
       <Footer/>
