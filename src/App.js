@@ -26,7 +26,8 @@ import VisionFuture from "./components/VisionFuture";
 import VisionFutureStrip from "./components/VisionFutureStrip";
 import DataPrivacy from "./components/DataPrivacy";
 import SeamexProjectWins from "./components/SeamexProjectWins";
-import TermAndConditionBanner from "./components/TermAndConditionBanner";
+
+import TermsAndCondition from "./components/TermsAndCondition";
 
 
 
@@ -62,7 +63,8 @@ function App() {
 <DataPrivacy/>
 
 <SeamexProjectWins/>
-<TermAndConditionBanner/>
+
+<TermsAndCondition/>
 
 <ContactUsBanner/>
 <ContactUsPage/>
