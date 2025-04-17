@@ -1,0 +1,31 @@
+.certificationWrapper {
+    text-align: center;
+    padding: 100px 60px 40px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .certificationTitle {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .blackText {
+    color: #000;
+  }
+  
+  .orangeText {
+    color: rgb(255, 84, 0);
+  }
+  
+  .certificationDescription {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(56, 56, 56);
+  }
+  

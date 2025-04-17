@@ -30,6 +30,8 @@ import SeamexProjectWins from "./components/SeamexProjectWins";
 import TermsAndCondition from "./components/TermsAndCondition";
 import PrivacyNoticeBanner from "./components/PrivacyNoticeBanner";
 import PrivacyNotice from "./components/PrivacyNotice";
+import ISOCertification from "./components/ISOCertification";
+import IsoFlipCards from "./components/IsoFlipCards";
 
 
 
@@ -61,6 +63,9 @@ function App() {
 <VisionFutureStrip/>
 
 <MissionVision/>
+
+<ISOCertification/>
+<IsoFlipCards/>
 
 <DataPrivacy/>
 
