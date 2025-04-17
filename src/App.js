@@ -28,6 +28,8 @@ import DataPrivacy from "./components/DataPrivacy";
 import SeamexProjectWins from "./components/SeamexProjectWins";
 
 import TermsAndCondition from "./components/TermsAndCondition";
+import PrivacyNoticeBanner from "./components/PrivacyNoticeBanner";
+import PrivacyNotice from "./components/PrivacyNotice";
 
 
 
@@ -63,6 +65,9 @@ function App() {
 <DataPrivacy/>
 
 <SeamexProjectWins/>
+
+<PrivacyNoticeBanner/>
+<PrivacyNotice/>
 
 <TermsAndCondition/>
 
