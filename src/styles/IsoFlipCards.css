@@ -1,67 +1,113 @@
-
-
+/* Section background styling */
 .flip-section {
   background: url('./../assets/CertificationBackgroundImage.png') no-repeat center center;
-  background-size: 95%;
+  background-size: 1450px;
   padding: 40px 20px;
   margin-top: 40px;
 }
 
+/* Flip card container */
 .flip-card-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 10%; 
+  gap: 10%;
   flex-wrap: wrap;
   margin-top: 30px;
 }
+
+/* Individual card */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+/* Inner container for flip effect */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Flip on hover */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back faces */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Images on both sides */
+.flip-card-front img,
+.flip-card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Back side rotation */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Decorative strip image */
+.certificationStrip {
+  width: 95%;
+  height: auto;
+  margin-bottom: 70px;
+  display: block;
+  margin-top: 5%;
+  margin-left: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .flip-section {
+    background-size: contain;
+  }
+
   .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 400px;
-    perspective: 1000px;
+    width: 260px;
+    height: 360px;
   }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+}
+
+@media (max-width: 768px) {
+  .flip-section {
+    background-size: 120%;
   }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+
+  .flip-card {
+    width: 220px;
+    height: 320px;
   }
-  
-  .flip-card-front,
-  .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  .flip-card-container {
+    gap: 30px;
   }
-  
-  .flip-card-front img,
-  .flip-card-back img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .flip-section {
+    background-size: 150%;
+    background-position: top center;
   }
-  
-  .flip-card-back {
-    transform: rotateY(180deg);
+
+  .flip-card {
+    width: 180px;
+    height: 280px;
   }
-  
-  .certificationStrip {
-    width: 95%;
-    height: auto;
-    margin-bottom: 70px;
-    display: block;
-    margin-top: 5%;
-    margin-left: 30px;
-  } 
-  
+}

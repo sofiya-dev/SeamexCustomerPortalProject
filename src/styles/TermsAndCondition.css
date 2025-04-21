@@ -1,343 +1,143 @@
+/* General Banner and Text Styling */
 .conditionBanner {
-    margin-top: 10px;
-    height: auto; 
-    width:100%;
-   }
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+}
 
-   .conditionText {
-    margin-top: 50px;
-    text-align: left;
-    line-height: 1.6;
-    font-weight: 600;
-    font-size: 14px;
-    font-family: Poppins, sans-serif;
-    font-style: italic;
-    color: rgb(56, 56, 56);
-    margin-bottom: 60px;
-    margin-left: 140px;
-    max-width: 70%;
+.conditionText {
+  margin-top: 50px;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  margin-bottom: 60px;
+  margin-left: 140px;
+  max-width: 70%;
+}
+
+/* Shared Section Styling */
+.sectionContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px 70px 0 140px;
+}
+
+.sectionIcon {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  margin-top: 4px;
+}
+
+.sectionContent {
+  flex: 1;
+}
+
+.sectionTitle {
+  color: rgb(163, 28, 32);
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.sectionDescription {
+  max-width: 1000px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(56, 56, 56);
+  font-family: Poppins, sans-serif;
+  margin-bottom: 5%;
+}
+
+/* Highlighted Text */
+.highlightText {
+  color: #b32025; /* Aditya Birla red */
+  font-weight: bold;
+}
+
+/* ------------------------ */
+/* 🔁 RESPONSIVE STYLING */
+/* ------------------------ */
+
+@media (max-width: 1024px) {
+  .conditionText {
+    margin-left: 60px;
+    max-width: 85%;
   }
 
-  .introContainer {
-    display: flex;
+  .sectionContainer {
+    margin: 20px 30px 0 60px;
+  }
+
+  .sectionIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sectionTitle {
+    font-size: 18px;
+  }
+
+  .sectionDescription {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .conditionText {
+    margin-left: 30px;
+    font-size: 13px;
+    max-width: 90%;
+  }
+
+  .sectionContainer {
+    flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
-  }
-  
-  .introIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 2%;
-    padding-right: 50px;
-  }
-  
-  .introTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .introDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
+    margin: 20px 20px 0 30px;
   }
 
-  .licenseContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
-  }
-  
-  .licenseIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 4%;
-    padding-right: 50px;
-  }
-  
-  .licenseTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .licenseDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
+  .sectionIcon {
+    margin-bottom: 10px;
   }
 
-  .privacyContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
-  }
-  
-  .privacyIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 3%;
-    padding-right: 50px;
-  }
-  
-  .privacyTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .privacyDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
+  .sectionContent {
+    width: 100%;
   }
 
-  .disclaimerContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
-  }
-  
-  .disclaimerIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 4%;
-    padding-right: 50px;
-  }
-  
-  .disclaimerTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .disclaimerDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
+  .sectionTitle {
+    font-size: 16px;
   }
 
-  .liabilityContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
+  .sectionDescription {
+    font-size: 13px;
   }
-  
-  .liabilityIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 2%;
-    padding-right: 50px;
-  }
-  
-  .liabilityTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .liabilityDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
+}
+
+@media (max-width: 480px) {
+  .conditionText {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
   }
 
-  .indemnificationContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
-  }
-  
-  .indemnificationIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 2%;
-    padding-right: 50px;
-  }
-  
-  .indemnificationTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .indemnificationDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
+  .sectionIcon {
+    width: 45px;
+    height: 45px;
   }
 
-  .terminationContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
-  }
-  
-  .terminationIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 2%;
-    padding-right: 50px;
-  }
-  
-  .terminationTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .terminationDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
+  .sectionTitle {
+    font-size: 15px;
   }
 
-  .jurisdictionContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
+  .sectionDescription {
+    font-size: 12px;
   }
-  
-  .jurisdictionIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 1%;
-    padding-right: 50px;
-  }
-  
-  .jurisdictionTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .jurisdictionDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
-  }
-
-  .termsContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
-  }
-  
-  .termsIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 3%;
-    padding-right: 50px;
-  }
-  
-  .termsTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .termsDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
-  }
-
-  .contactInfoContainer {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-right: 70px;
-  }
-  
-  .contactInfoIcon {
-    width: 70px;
-    height: 70px;
-    margin-top: 3%;
-    padding-right: 50px;
-  }
-  
-  .contactInfoTitle {
-    color: rgb(163, 28, 32);
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 12px;
-  }
-  
-  .contactInfoDescription {
-    max-width: 1000px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-size: 14px;
-    color: rgb(56, 56, 56);
-    font-family: Poppins, sans-serif;
-    margin-bottom: 5%;
-  }
-  .highlightText {
-    color: #b32025; /* Aditya Birla red */
-    font-weight: bold;
-  }
+}

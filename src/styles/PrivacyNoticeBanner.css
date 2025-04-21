@@ -1,7 +1,25 @@
 .privacyNoticeBanner {
+    width: 100%;
+    height: auto;
     margin-top: 10px;
-    height: auto; 
-    width:100%;
-   }
-
-   
+    
+    object-fit: contain;
+    display: block;
+    }
+  
+  /* Responsive tweaks for tablets */
+  @media (max-width: 768px) {
+    .privacyNoticeBanner {
+      margin-top: 8px;
+      max-width: 95%;
+    }
+  }
+  
+  /* Responsive tweaks for small mobile devices */
+  @media (max-width: 480px) {
+    .privacyNoticeBanner {
+      margin-top: 6px;
+      max-width: 100%;
+    }
+  }
+  
