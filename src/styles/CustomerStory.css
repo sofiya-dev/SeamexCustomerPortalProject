@@ -1,0 +1,113 @@
+.customer-story-wrapper {
+  width: 100%;
+  
+}
+
+.customer-story-top-bar {
+  height: 4px;
+  background: linear-gradient(to right, #e539d3, #f2a838); 
+ margin-left: 45px;
+  width: 94%;
+  margin-block-start: 4%;
+}
+
+.customer-story-container {
+  display: flex;
+  width: 100%;
+  max-width: 1450px;
+  margin: auto auto;
+  height: 400px;
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-story-left {
+  position: relative;
+  /* flex: 1; */
+  background: url('./../assets/PositiveReviews.jpg')  center/cover;
+  width: 50%;
+  margin-left: 2px;
+  }
+
+/* Overlay button in bottom-left corner */
+.play-button-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+/* Styled button just like screenshot */
+.read-button {
+  background-color: white !important;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-weight: 600;
+  height: 40px;
+  
+}
+
+/* Right Side Styling  */
+.quote-container {
+  padding: 46px;
+  background: white;
+}
+
+.quote-wrapper {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.6;
+}
+
+.quote-icon {
+  font-size: 40px;
+  color: #f26b38;
+  font-weight: bold;
+  
+}
+
+.quote-icon.start {
+  margin-right: 5px;
+ 
+}
+
+.quote-icon.end {
+  margin-left: 4px;
+}
+
+.quote-text {
+  font-size: 17px;
+  font-weight: bold;
+  color: #1e1e1e;
+ 
+  max-width: 600px;
+}
+
+.quote-author {
+  margin-top: 14px;
+  font-size: 14px;
+  margin-top: 1%;
+  color: #888;
+  margin-left: 5%;
+}
+
+.quote-metric {
+  margin-top: 24px;
+}
+
+.quote-metric h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 5%;  
+  color: #000;
+  margin-top: -1%;
+}
+
+.quote-metric p {
+  font-size: 14px;
+  color: #888;
+  margin-left: 5%;
+  margin-top: -4%;
+}

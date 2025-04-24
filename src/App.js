@@ -34,6 +34,11 @@ import ISOCertification from "./components/ISOCertification";
 import IsoFlipCards from "./components/IsoFlipCards";
 
 
+import CustomerStoryContent from "./components/CustomerStoryContent";
+import CustomerStoryQuote from "./components/CustomerStoryQuote";
+
+
+
 
 function App() {
   return (
@@ -51,8 +56,19 @@ function App() {
       <OurDashboard/>
 <ProjectWins/>
 
-<AboutUsBase/>
 
+
+ <div className="customer-story-wrapper">
+   <div className="customer-story-top-bar" />
+    <div className="customer-story-container">
+      <CustomerStoryContent/>
+      <CustomerStoryQuote/>
+      </div>
+</div>
+
+
+
+<AboutUsBase/>
 <OurScope/>
 <OurTeam/>
 <DigitalTransformation/>
